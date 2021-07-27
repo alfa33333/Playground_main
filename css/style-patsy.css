@@ -1,0 +1,126 @@
+html {
+    background-color: #01072E;
+    background-image: url("../images_patsy/background.png");
+    background-repeat: repeat-x repeat-y;
+    /* background-size: cover; */
+}
+
+body {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+}
+
+h1,
+h2,
+strong {
+    font-weight: 900;
+}
+
+/*Typography*/
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 20px;
+    color: #ef5839;
+    text-align: center;
+    padding: auto;
+}
+
+a {
+    color: #ef5839;
+}
+
+a:hover,
+a:focus {
+    color: #d4b44c;
+}
+
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 10px 25px;
+    text-decoration: none;
+}
+
+.btn-accent{
+    background: #ef5839;
+    color: #fff;
+}
+
+.btn-accent:hover{
+    color: #2e354f;
+    background: #d4b44c;
+}
+
+.btn-white{
+    background: #fff;
+    color: #2e354f;
+}
+
+.btn-white:hover{
+    color: #2e354f;
+    background: #999;
+}
+
+
+/* layout */
+
+header {
+    color: #fff;
+}
+
+
+.container {
+    height: 50%;
+    /* max-width: 620px; */
+    margin: 8% auto;
+    /* border: 2px solid magenta; */
+    color: gray;
+
+}
+#img1 {
+    position: relative;
+    display:block; 
+     margin-left: auto;
+    margin-right: auto;
+    max-width: 600px;
+    z-index: 3;
+}
+
+#img2 {
+    position: absolute;
+    top: 50%;
+    left: 47%;
+    z-index: 1;
+}
+
+#text {
+    display: none;
+    font-size: 24px;
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    color: rgb(255, 20, 255);
+    z-index: 2;
+}
+
+#teles {
+    position:fixed;
+    bottom:0px;
+}
+.section-one{
+    position: relative;
+    color: #fff;
+    /* border: 2px solid magenta; */
+}
+.section-two{
+    padding-top: 10px;
+    /* border: 2px solid magenta; */
+}
+
